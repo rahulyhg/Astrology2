@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">طالع بینی هفتگی</string>
+
+    <string-array name="months">
+        <item>فروردین</item>
+        <item>اردیبهشت</item>
+        <item>خرداد</item>
+        <item>تیر</item>
+        <item>مرداد</item>
+        <item>شهریور</item>
+        <item>مهر</item>
+        <item>آبان</item>
+        <item>آذر</item>
+        <item>دی</item>
+        <item>بهمن</item>
+        <item>اسفند</item>
+
+
+    </string-array>
+    <string name="title_activity_history">history</string>
+    <string name="title_activity_main3">Main3Activity</string>
+</resources>

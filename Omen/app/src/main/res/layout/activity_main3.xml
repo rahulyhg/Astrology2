@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Main3Activity"
+    android:background="@drawable/bg"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="تاریخچه طالع بینی"
+           android:textColor="#004D40"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="32dp"
+           />
+       <TextView
+        android:id="@+id/omen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
+
+        android:text="هزاران سال پیش آسمان شب برای مردم نسبت به امروز اهمیت بسیار بیشتری داشت. آنها نقوش درهم و برهم ستارگان را به عنوان تصویری از جهان زمینی می پنداشتند و نام اشیا، قهرمانان افسانه‌ای و بیش از هر چیز جانوران مورد علاقه و احترام خود را به این نقوش آسمانی می‌دادند. آنها در گروه معینی از ستارگان درخشان نقش ثور (گاو)، حمل (بره)، حوت (ماهی) و جدی (بز) و بسیاری از صورت های دیگر را می‌دیدند.
+
+علاوه بر آنها به فرایندهایی که در آسمان نقش می گرفتند، قبل از هر چیز توجه می‌کردند: آنها مشاهده می‌کردند که چگونه ماه به طور منظم و به تناوب تغییر شکل می‌دهد. آنها این نکته را دریافتند که تعدادی از ستاره‌های درخشان متفاوت از اغلب ستارگان دیگر حرکت می‌کنند و آنها را ستاره‌های مهاجر یا سیاره‌ها نامیدند. و آنها با اشتیاق می‌خواستند بدانند که این بازی های آسمانی منحصربه‌فرد چه معنا و مفهومی برای آنها می‌تواند داشته باشد. آیا خورشید، ماه و سیاره‌ها شاید خدایانی بودند، که در ارتفاعی غیر قابل دسترس و بالاتر از همه چیز این سو و آن سو می‌رفتند؟ یا این که خدایان به این طریق خواسته‌ها و اخطارهای خود را به آدمیان منتقل می‌کردند؟ بنابراین کم و بیش به این ترتیب بود که طالع بینی (اخترگویی یا تنجیم) به وجود آمد، علمی که در آن انسان بر اساس وضعیت ستارگان به ظاهر می‌تواند آینده را پیشگویی کند."
+        android:textColor="#424242"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="32dp"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:text="بازگشت"
+           android:background="@drawable/shape"
+           android:textColor="#FFF"
+           android:id="@+id/returnButton"
+           android:onClick="returnMenu"
+           android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="16dp"
+        android:gravity="bottom"
+        android:text="Designed by VayaGroup     Please support us"
+        android:textColor="#00695C"
+        android:layout_marginBottom="16dp"
+
+        />
+
+
+   </LinearLayout>
+</ScrollView>
+
