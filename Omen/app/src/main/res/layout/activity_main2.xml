@@ -76,7 +76,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="32dp"
             android:background="@drawable/shape"
-            android:text="فال بگیر"
+            android:text="شروع"
             android:textColor="#FFF" />
 
 

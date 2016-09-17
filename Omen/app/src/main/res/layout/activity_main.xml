@@ -10,9 +10,9 @@
     <ImageView
         android:layout_width="145dp"
         android:layout_height="145dp"
-        android:src="@drawable/backgroundeman"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="32dp"/>
+        android:layout_marginTop="32dp"
+        android:src="@drawable/backgroundeman" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,11 +20,11 @@
         android:layout_alignParentTop="true"
         android:layout_gravity="center_horizontal"
 
-        android:paddingRight="45dp"
+        android:layout_marginBottom="16dp"
         android:paddingLeft="45dp"
 
-        android:textSize="14sp"
-        android:layout_marginBottom="16dp"/>
+        android:paddingRight="45dp"
+        android:textSize="14sp" />
 
 
     <EditText
@@ -48,8 +48,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="32dp"
             android:layout_marginRight="32dp"
+            android:layout_marginTop="32dp"
             android:text="مرد" />
 
         <RadioButton
@@ -57,8 +57,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="32dp"
             android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
             android:text="زن" />
 
     </RadioGroup>
@@ -80,18 +80,18 @@
         android:background="@drawable/shape"
         android:onClick="onClick"
         android:text="ادامه"
-        android:textColor="#FFF"/>
+        android:textColor="#FFF" />
 
     <Button
         android:id="@+id/button2"
-        android:textColor="#FFF"
-        android:layout_marginTop="32dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
         android:background="@drawable/shape"
         android:onClick="onClickHistory"
-        android:text="تاریخچه " />
+        android:text="تاریخچه "
+        android:textColor="#FFF" />
 
 
 </LinearLayout>
